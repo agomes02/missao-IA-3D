@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "principal dano causado pelo racismo?",
         alternativas: [
