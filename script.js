@@ -53,3 +53,5 @@ function jogarNovamente{
     caixaResultado.classLIst.remove("mostrar");
     mostraPergunta();
 }
+
+mostraPergunta();
