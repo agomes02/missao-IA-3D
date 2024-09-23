@@ -7,7 +7,8 @@ export const perguntas = [
                 afirmacao: [
                     "racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade ",
                     "afirmacao 2"
-                    ]
+                    ], 
+                proxima: 1, 
             },
             {
                 texto: "contribui para a exclusão social e marginalização de grupos minoritarios ",
@@ -15,7 +16,8 @@ export const perguntas = [
                 afirmacao: [
                     "reforça a desigualdade e estereotipos discriminatorios ",
                     "afirmacao 2"
-                    ]
+                    ],
+                proxima: 2, 
             }           
             
         ]
