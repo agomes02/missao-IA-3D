@@ -8,7 +8,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn"); 
 const botaoIniciar = document.querySelector(".iniciar-btn");
-const telaInicial = document.querySelector(."tela-onicial"); 
+const telaInicial = document.querySelector(."tela-inicial"); 
 
 let atual = 0; 
 let perguntaAtual;
@@ -20,9 +20,9 @@ function iniciaJogo() {
     atual = 0; 
     historiaFinal = ""; 
     telaInicial.style.display = 'none'; 
-    caixaPerguntas.classList.remove(".nostrar");
-    caixaAlternativas.classList.remove(".nostrar");
-    caixaResultado.classList.remove(".nostrar");
+    caixaPerguntas.classList.remove(".mostrar");
+    caixaAlternativas.classList.remove(".mostrar");
+    caixaResultado.classList.remove(".mostrar");
 mostraPergunta(); 
 }
 
@@ -49,7 +49,12 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes =aleatorio (opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    atual++;
+    if(opcaoSelecionada.proxima !== undefined) {
+        atual = opcaoSelecionada.proxima;
+    }else  { 
+        mostraResultado();
+        return; 
+    }
     mostraPergunta();
 }
 
