@@ -38,7 +38,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = " o vestibular é o primeiro passo para construir a sua historia. explore novas possibilidades e descubra qual carreira te fará mais feliz";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
 }
