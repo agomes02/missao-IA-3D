@@ -23,39 +23,40 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "o que caracteriza o racismo estrutural na sociedade",
+        enunciado: "Tem curiosidade sobre o comportamento humano e as relações sociais?",
         alternativas: [
             {
-                texto:"desigualdades raciais,
+                texto:"sim" 
                 afirmacao: [
-                    "são perpetuadas por instituições, politicas e normas sociais ",
-                    "afirmacao 2"
+                    " 
+                    " voce se dará melhor em humanas ",
+                    
                     ]
             },
             {
-                texto: "discriminação individual",
+                texto: "não",
                 afirmacao: [
-                    "apenas a discriminação individual e direta afeta a sociedade ",
-                    "afirmacao 2"
+                    "é bem provávelque voce se dará bem em exatas ",
+                    
                     ]
             }
         ]
     },
     {
-        enunciado: "voce apoia o racismo?",
+        enunciado: "Prefere atividades que envolvem lógica e raciocínio dedutivo?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"sim ",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "você se dara bem em exatas ",
+                    
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:" não ",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "vocêprovavelmente se dara bem em humanas ",
+                    
                     ]
             }
             
