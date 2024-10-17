@@ -1,21 +1,21 @@
 export const perguntas = [
     {
-        enunciado: "principal dano causado pelo racismo?",
+        enunciado: "qual area de conhecimento voce mais gosta?  ",
         alternativas: [
             {
-                texto: "fortalece a autoestima das vitimas",
-                afirmacao: [
-                    "racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade ",
-                    "afirmacao 2"
+                texto: "Humanas ",
+                afirmacao: [ 
+                    " História,  Geografia ",
+                    " Psicológia, Biologia "
                     ], 
                 proxima: 1, 
             },
             {
-                texto: "contribui para a exclusão social e marginalização de grupos minoritarios ",
+                texto: " exatas ",
                 
                 afirmacao: [
-                    "reforça a desigualdade e estereotipos discriminatorios ",
-                    "afirmacao 2"
+                    " Matemática, Administração ",
+                    " Física, Química"
                     ],
                 proxima: 2, 
             }           
