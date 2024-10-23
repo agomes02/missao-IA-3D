@@ -28,7 +28,6 @@ export const perguntas = [
             {
                 texto:"sim", 
                 afirmacao: [
-                    " 
                     " voce se dará melhor em humanas ",
                     
                     ]
