@@ -26,7 +26,7 @@ export const perguntas = [
         enunciado: "Tem curiosidade sobre o comportamento humano e as relações sociais?",
         alternativas: [
             {
-                texto:"sim" 
+                texto:"sim", 
                 afirmacao: [
                     " 
                     " voce se dará melhor em humanas ",
